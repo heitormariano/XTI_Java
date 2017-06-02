@@ -4,17 +4,17 @@ public class MatematicaTeste {
 
 	public static void main(String[] args) {
 		Matematica matematica = new Matematica();
-		
+
 		int numMario = matematica.maior(5, 10);
-		
+
 		System.out.println("Maior numero: " + numMario);
-		
+
 		double soma = matematica.soma(10, 20);
-		
+
 		System.out.println("Soma de dois numeros " + soma);
-		
-		//saber a soma do maior numero par com o maior numero impar
-		
+
+		// saber a soma do maior numero par com o maior numero impar
+
 		int maiorPar = matematica.maior(2, 4);
 		int maiorImpar = matematica.maior(3, 5);
 		
@@ -27,6 +27,5 @@ public class MatematicaTeste {
 		
 		System.out.println("Soma do maior numero " +
 				"par com o maior numero impar: " + somaMaiores);
-		
 	}
 }

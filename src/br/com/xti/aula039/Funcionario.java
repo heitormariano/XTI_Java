@@ -21,15 +21,14 @@ public class Funcionario {
 	protected String protectedNaParada;
 	
 	public static void main(String[] args) {
-		
+
 		Funcionario f = new Funcionario();
-		
-		//variaveis do tipo private sao acessadas apenas na classe
+
+		// variaveis do tipo private sao acessadas apenas na classe
 		f.nome = "Belezinha Massa da Silva";
-		
 	}
-	
-	public String getNome(){
+
+	public String getNome() {
 		return this.nome;
 	}
 }

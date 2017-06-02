@@ -26,7 +26,7 @@ public class ArraySimples {
 		System.out.println(arrayDois[1][0]);
 		
 		
-		//tamanho do array. O arrayDois possue dois elementos, os ddois arrays
+		//tamanho do array. O arrayDois possui dois elementos, os dois arrays
 		System.out.println("Qtd elementos do Array: " + arrayDois.length);
 		
 		

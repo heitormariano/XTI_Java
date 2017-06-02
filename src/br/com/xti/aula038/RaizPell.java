@@ -7,20 +7,20 @@ public class RaizPell {
 		int ciclos = 0;
 		int impar = 1;
 		int resultado = numero;
-		
-		while (resultado >= impar){
+
+		while (resultado >= impar) {
 			resultado = resultado - impar;
-			
-			impar +=2;
-			ciclos +=1;
+
+			impar += 2;
+			ciclos += 1;
 		}
-		
+
 		return ciclos;
 	}
 	
-	//acrescentei o metodo
-	//raiz mais preciso com o uso da classe Math
-	public double raizPrecisa (double numero){
+	// Acrescentei o metodo
+	// Raiz mais precisa com o uso da classe Math
+	public double raizPrecisa(double numero) {
 		return Math.sqrt(numero);
 	}
 }

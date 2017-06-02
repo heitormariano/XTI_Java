@@ -35,7 +35,7 @@ public class MatematicaTeste {
 		
 		
 		System.out.println("Teste Um - Total: " + totalUm);
-		System.out.println("Teste Um - Total: " + totalDois);
+		System.out.println("Teste Dois - Total: " + totalDois);
 		
 		// para usar o metodo somaArray eh preciso definir o array de elementos que precisam ser somados.
 		

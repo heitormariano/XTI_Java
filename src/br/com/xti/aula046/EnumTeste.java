@@ -24,9 +24,8 @@ public class EnumTeste {
 		// percurso percorrido:
 
 		andar(Medida.M, 100);
-		
-		
-		for(PecasXadrez peca : PecasXadrez.values()){
+
+		for (PecasXadrez peca : PecasXadrez.values()) {
 			System.out.println(peca);
 		}
 	}

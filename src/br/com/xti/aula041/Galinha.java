@@ -6,8 +6,6 @@ public class Galinha {
 	
 	public int ovos; //total de ovos do objeto galinha. Toda vez que eh criado um objeto galinha, uma variavel ovos eh criada também
 	
-	
-	
 	/*public void botar(){
 		ovos ++;
 	}*/

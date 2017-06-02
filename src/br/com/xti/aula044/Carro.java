@@ -5,12 +5,12 @@ public class Carro {
 	private String modelo;
 	private int velocidadeMaxima;
 	private double segundosZeroACem;
-	
+
 	public Carro() {
-		
+
 	}
-	
-	public Carro(String modelo, int velocidadeMaxima, double segundosZeroACem){
+
+	public Carro(String modelo, int velocidadeMaxima, double segundosZeroACem) {
 		this.modelo = modelo;
 		this.velocidadeMaxima = velocidadeMaxima;
 		this.segundosZeroACem = segundosZeroACem;
@@ -40,4 +40,3 @@ public class Carro {
 		this.segundosZeroACem = segundosZeroACem;
 	}
 }
-

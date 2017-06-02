@@ -17,12 +17,12 @@ public class Matematica {
 	}
 
 	public int raiz(int numero) {
-
 		// uma forma
 		// return (int) Math.sqrt(numero);
 
 		// outra forma
 		// meu codigo
+		
 		int ciclos = 0;
 		int impar = 1;
 		int resultado = numero;
@@ -41,14 +41,13 @@ public class Matematica {
 		return null;
 	}
 
-	/*
-	 * public double soma (double um, double dois){ double soma = um + dois;
-	 * return soma; }
-	 */
+	/*public double soma(double um, double dois) {
+		double soma = um + dois;
+		return soma;
+	}*/
+	 
 
-	// modificando o metodo soma para receber um numero indeterminado de
-	// argumentos
-
+	// modificando o metodo soma para receber um numero indeterminado de argumentos
 	public double soma(double... numeros) {
 		double total = 0;
 
@@ -62,7 +61,7 @@ public class Matematica {
 	// o metodo de cima eh semelhante a este.
 	public double somaArray(double[] numeros) {
 		double total = 0;
-		
+
 		for (double num : numeros) {
 			total += num;
 		}

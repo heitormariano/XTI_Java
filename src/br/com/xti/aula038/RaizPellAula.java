@@ -7,17 +7,16 @@ public class RaizPellAula {
 	 * @return a raiz quadrada segundo a equacao de Pell
 	 * 
 	 */
-	public int raiz (int numero){
+	public int raiz(int numero) {
 		int raiz = 0, impar = 1;
-		
-		while (numero >= impar){
-			
+
+		while (numero >= impar) {
 			numero -= impar;
-			
-			impar +=2; //proximo numero impar
+
+			impar += 2; // proximo numero impar
 			++raiz;
 		}
-		
+
 		return raiz;
 	}
 }
