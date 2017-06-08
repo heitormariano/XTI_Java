@@ -47,7 +47,7 @@ public class StringMutavel {
 		String texto = sBuilder.toString();*/
 		
 		//tirar parte de um texto
-		//metodo de remocao: delete(). Informar onde comeca e termina a remocao
+		//metodo de remocao: delete(). Informar onde comeca e termina (índice final - 1) a remocao
 		String url = new StringBuilder("www.xti.com.br").delete(0, 4).toString();
 		System.out.println(url);
 		

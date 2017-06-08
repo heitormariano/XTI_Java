@@ -39,8 +39,8 @@ public class StringOperacoes {
 		
 		boolean comeca = xti.startsWith("XT"); //saber se a string começa com dado valor fornecido.
 		System.out.println(comeca);
-		
-		boolean comeca2 = xti.startsWith("TI"); 
+
+		boolean comeca2 = xti.startsWith("TI");
 		System.out.println(comeca2);
 		
 		boolean termina = xti.endsWith("TI"); //saber se a string termina com dado valor
@@ -48,9 +48,12 @@ public class StringOperacoes {
 		
 		boolean termina2 = xti.endsWith("X");
 		System.out.println(termina2);
+
+		System.out.println("---------- Uso de compareTo ----------");
 		
 		int vemAntes = "amor".compareTo("bola"); // a palavra amor vem antes ou depois da palava bola. Resposta: antes (a letra a vem antes da letra b)
-		//é retornado -1 para dizer que a string é menor (vem antes) que a outra.
+		// é retornado -1 para dizer que a string é menor (vem antes) que a outra.
+		
 		System.out.println(vemAntes);
 		
 		int vemAntes2 = "carteira".compareTo("branco");
@@ -70,9 +73,10 @@ public class StringOperacoes {
 		int compara = "1234".compareTo("5678"); 
 		// o valor retornado é menor que 0 para dizer que a string é menor que a outra
 		System.out.println(compara);
+		System.out.println("---------- Fim de uso de compareTo ----------");
 		
 		String s5 = "olhe, olhe!";
-		boolean compara2 = s5.regionMatches(6, "OLHE", 0, 4); //saber de uma string está numa região específica de outra string
+		boolean compara2 = s5.regionMatches(6, "OLHE", 0, 4); // saber de uma string está numa região específica de outra string
 		System.out.println(compara2);
 		
 		//argumento 1: indice da posição da string (s5) de referência para a verificação (avaliação da presença ou não de uma string em outra). 
@@ -83,11 +87,15 @@ public class StringOperacoes {
 		//Foi repasso como parâmetro o valor 4 (número de caracteres total)
 		
 		
-		//mesma coisa do métod de cima, mas o primeiro argumento agora é para 
+		//mesma coisa do método de cima, mas o primeiro argumento agora é para 
 		//desconsiderar maiúsculas e minúsculas na verficação
 		String s6 = "rapaz, rapaz!";
 		boolean compara3 = s6.regionMatches(true, 7, "RAPAZ", 0, 5); //saber se uma string está numa região específica de outra string
 		System.out.println(compara3);
+		
+		String frease = "rapaz. A palavra aparece. Novamente a palavra rapaz.";
+		boolean resultado = frease.regionMatches(0, "rapaz", 0, 5);
+		System.out.println(resultado);
 		
 		//EXTRÇÂO DE DADOS
 		
@@ -97,7 +105,7 @@ public class StringOperacoes {
 		String subBrasil = brasil.substring(9);
 		System.out.println(subBrasil);
 		
-		//obtendo uma substring definindo o índice inicial e final usado
+		//obtendo uma substring definindo o índice inicial e final - 1 usado
 		String subBrasil2 = brasil.substring(2, 8);
 		System.out.println(subBrasil2);
 		
@@ -111,6 +119,10 @@ public class StringOperacoes {
 		
 		String substituicao = brasil.replace('l', 'L'); // trocar o l por L
 		System.out.println(substituicao);
+		
+		String palavra = "Massa"; 
+		String mudanca = palavra.replace('a', 'A'); // existe mais de um 'a' na String. Nesse caso, todas as ocorrências são trocadas por 'A'
+		System.out.println(mudanca);
 		
 		String substituicao2 = brasil.replaceFirst(" ", "X"); //na primeira aparição de espaço, substituir por X
 		System.out.println(substituicao2);
